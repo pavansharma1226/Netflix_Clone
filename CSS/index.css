@@ -82,7 +82,7 @@ header{
 }
 
 .first_input{
-    width: 400px;
+    width: 35%;
     height: 40px;
     font-size: 4vh;
     color: black;
@@ -204,4 +204,108 @@ footer{
 .netflix_india{
     margin-top: 20px;
     padding-bottom: 20px;
+}
+
+
+
+
+@media all and (max-width:800px){
+    .get_started .first{
+        font-size: 7.5vh;
+    }
+    
+    .get_started .second{
+        font-size: 3vh;
+    }
+    
+    .get_started .third{
+        font-size: 1.87vh;
+    }
+    
+    .first_input{
+        font-size: 3vh;
+    }
+    
+    .first_input_button{
+        font-size: 3vh;
+       }
+    
+    .one{
+        font-size: 5.25vh;
+    }
+    
+    .two{
+        font-size: 3vh;
+    }
+    
+    .FAQ .faq_heading{
+        font-size: 5.25vh;
+    }
+    
+    .question{
+        font-size: 3vh;
+    }
+    
+     .ready_to_watch{
+        font-size: 1.87vh;
+        }
+      
+    .sign_in{
+        right: 22px;
+    }
+
+    .language{
+        right: 100px;
+    }
+}
+
+
+@media all and (max-width:500px){
+    .get_started .first{
+        font-size: 5vh;
+    }
+    
+    .get_started .second{
+        font-size: 2vh;
+    }
+    
+    .get_started .third{
+        font-size: 1.25vh;
+    }
+    
+    .first_input{
+        font-size: 2vh;
+    }
+    
+    .first_input_button{
+        font-size: 2vh;
+       }
+    
+    .one{
+        font-size: 3.5vh;
+    }
+    
+    .two{
+        font-size: 2vh;
+    }
+    
+    .FAQ .faq_heading{
+        font-size: 3.5vh;
+    }
+    
+    .question{
+        font-size: 2vh;
+    }
+    
+     .ready_to_watch{
+        font-size: 1.25vh;
+        }
+      
+    .sign_in{
+        right: 15px;
+    }
+
+    .language{
+        right: 90px;
+    }
 }
